@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61c61590.chunk.css",
+    "main.js": "/static/js/main.52e60010.chunk.js",
+    "main.js.map": "/static/js/main.52e60010.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.74878216.js",
+    "runtime-main.js.map": "/static/js/runtime-main.74878216.js.map",
+    "static/js/2.72f3f601.chunk.js": "/static/js/2.72f3f601.chunk.js",
+    "static/js/2.72f3f601.chunk.js.map": "/static/js/2.72f3f601.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1a6f0900c59e9620c1458d520642f391.js": "/precache-manifest.1a6f0900c59e9620c1458d520642f391.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61c61590.chunk.css.map": "/static/css/main.61c61590.chunk.css.map",
+    "static/js/2.72f3f601.chunk.js.LICENSE.txt": "/static/js/2.72f3f601.chunk.js.LICENSE.txt",
+    "static/media/banner.svg": "/static/media/banner.930fddd1.svg",
+    "static/media/cook.png": "/static/media/cook.66d2cc24.png",
+    "static/media/logo.PNG": "/static/media/logo.77f49518.PNG",
+    "static/media/peon.png": "/static/media/peon.cdc20026.png",
+    "static/media/site.png": "/static/media/site.e1ef47de.png",
+    "static/media/view.png": "/static/media/view.88f614c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74878216.js",
+    "static/js/2.72f3f601.chunk.js",
+    "static/css/main.61c61590.chunk.css",
+    "static/js/main.52e60010.chunk.js"
+  ]
+}
