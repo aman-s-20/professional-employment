@@ -69,7 +69,7 @@ class UserProfileForm extends Component {
     // console.log(newUser);
 
     axios
-      .post("https://pacific-taiga-02637.herokuapp.com/user/register", {
+      .post("https://backendrojgaar.onrender.com/user/register", {
         username: this.state.username,
         phoneNumber: this.state.phoneNumber,
         aadharNumber: this.state.aadharNumber,

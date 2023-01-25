@@ -50,7 +50,7 @@ class PostJobForm extends Component {
     else if (this.state.category === "सुरक्षा गार्ड") englishCategory = "SECURITY GUARD";
     else englishCategory = this.state.category;
     axios
-      .post("https://pacific-taiga-02637.herokuapp.com/jobs", {
+      .post("https://backendrojgaar.onrender.com/jobs", {
         title: this.state.title,
         recruiterEmailId: this.state.recruiterEmailId,
         recruiterPhoneNumber: this.state.recruiterPhoneNumber,

@@ -39,9 +39,12 @@ class ApplyJob extends Component {
        
       Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase). On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
       */
+
+     
+      console.log("this is jobid",this.props.jobId);
     axios
       .post(// we can use .get in place of .post
-        `https://pacific-taiga-02637.herokuapp.com/jobs/${this.props.jobId}/apply`,
+        `https://backendrojgaar.onrender.com/jobs/${this.props.jobId}/apply`,
         {
           aadharNumber: this.state.aadharNumber,
         }
@@ -49,7 +52,7 @@ class ApplyJob extends Component {
       .then((response) => {
         console.log(response);
         if (response.status === 200) {
-          const data = response.data;  // data mein saara data fill ho jayega
+          const data = response.data;  
           //   console.log(data);
           this.setState({ data });
           alert(`Your application has been sent.`);
@@ -85,9 +88,9 @@ class ApplyJob extends Component {
             {" "}
             {t("If you haven't registered yet, please ")}
             <Link to={"/user/register"}>{t("register")} </Link>
-            {t("before applying.")} /* this is use to translation of language */
+            {t("before applying.")}    {/* this is use to translation of language */}
           </p>
-        
+          
           <Form onSubmit={this.handleSubmit}>
             <Form.Group controlId="formBasicEmail">
               <Form.Control
